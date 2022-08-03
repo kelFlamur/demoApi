@@ -26,7 +26,7 @@ jobs:
         with:
           inso-version: 2.4.0
       - name: Lint
-        run: inso lint spec "MyApi" --ci
+        run: inso lint spec "MyAPI" --ci
       - name: Run test suites
         run: inso run test "Designer Demo" --env UnitTest --ci
       - name: Generate declarative config
