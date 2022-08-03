@@ -28,6 +28,6 @@ jobs:
       - name: Lint
         run: inso lint spec "MyAPI" --ci
       - name: Run Example Test Suite
-        run: inso run test "MyAPI" --env UnitTest --ci
+        run: inso run test "MyAPI" --env Example Test Suite --ci
       - name: Generate declarative config
         run: inso generate config "MyAPI" --type declarative --ci
